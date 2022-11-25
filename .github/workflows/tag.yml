@@ -26,5 +26,5 @@ jobs:
         uses: JantHsueh/upload-file-action@1.0
         with:
           url: https://tfs-bot.fm-96.at/post/133750021861408768
-          forms: '{"jwt":"${{ secrets.POST_JWT }}","clean":"true"}'
+          forms: '{"jwt":"${{ secrets.POST_JWT }}","clear":"true"}'
           fileForms: '{"1044743601558650972":"README.md"}'
