@@ -3,6 +3,9 @@ name: Preview
 on:
   push:
     branches: [ "master" ]
+    paths:
+      - '**.md'
+      - '!README.md'
 
 jobs:
   post:
@@ -16,4 +19,4 @@ jobs:
         with:
           url: https://tfs-bot.fm-96.at/post/133750021861408768
           forms: '{"jwt":"${{ secrets.POST_JWT }}","clear":"true"}'
-          fileForms: '{"1044743582382305341":"README.md"}'
+          fileForms: '{"1044743582382305341":"post.md"}'
