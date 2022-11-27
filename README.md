@@ -1,3 +1,1 @@
-**Hello World!**
-
-This is a test for <@&796399576122785842>.
+This is a test repository to make myself familiar with Github Actions.
